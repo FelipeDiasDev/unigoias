@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".NewCarroActivity">
+    <!--edit text para o nome do curso-->
+    <EditText
+        android:id="@+id/idEdtCarroMarca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Marca do carro" />
+    <!--edit text para a descrição do curso-->
+    <EditText
+        android:id="@+id/idEdtCarroModelo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Modelo do carro" />
+    <!--edit text para a duração do curso-->
+    <EditText
+        android:id="@+id/idEdtCarroPlaca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Placa do Carro" />
+    <!-- botão para salvar os dados no banco de dados ROOM-->
+    <Button
+        android:id="@+id/idBtnSaveCarro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:padding="5dp"
+        android:text="Gravar carro"
+        android:textAllCaps="false" />
+</LinearLayout>
